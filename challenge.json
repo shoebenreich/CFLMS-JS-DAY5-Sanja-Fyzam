@@ -1,0 +1,56 @@
+var cars = [
+  {
+    "brand": "Audi",
+    "model": "A3",
+    "manufacturingYear": 2013,
+    "price": 15000
+  },
+  {
+    "brand": "BMW",
+    "model": "X6",
+    "manufacturingYear": 2019,
+    "price": 30000
+  },
+  {
+    "brand": "Mercedes",
+    "model": "AMG GT R",
+    "manufacturingYear": 2020,
+    "price": 282000
+  },
+  {
+    "brand": "Peugeot",
+    "model": "3008",
+    "manufacturingYear": 2013,
+    "price": 7000
+  },
+  {
+    "brand": "Renault",
+    "model": "Twingo",
+    "manufacturingYear": 2020,
+    "price": 10000
+  },
+  {
+    "brand": "Nissan",
+    "model": "GTR",
+    "manufacturingYear": 2017,
+    "price": 100000
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "manufacturingYear": 2012,
+    "price": 8000
+  },
+  {
+    "brand": "VW",
+    "model": "Passat",
+    "manufacturingYear": 2017,
+    "price": 15000
+  },
+  {
+    "brand": "Mitsubishi",
+    "model": "Lancer",
+    "manufacturingYear": 2008,
+    "price": 8000
+  }
+]
