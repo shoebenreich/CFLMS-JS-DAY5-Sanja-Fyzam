@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="advanced.json"></script>
     <title>Advanced</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div>
+      <ul id="list"></ul>
+    </div>
+    <script>
+      for (i = 0; i < books.length; i++) {
+        if (books[i].read === false) {
+          document.getElementById(
+            "list"
+          ).innerHTML += `<li style="list-style: none"><div style="display: flex; align-items: center"><img style="width: 200px; height: 250px;" src="${books[i].img}"><p style="color: red"> ${books[i].title} by ${books[i].author}</p></div></li>`;
+        } else {
+          document.getElementById(
+            "list"
+          ).innerHTML += `<li style="list-style: none"><div style="display: flex; align-items: center"><img style="width: 200px; height: 250px;" src="${books[i].img}"><p style="color: green"> ${books[i].title} by ${books[i].author}</p></div></li>`;
+        }
+      }
+    </script>
+  </body>
 </html>
