@@ -12,7 +12,8 @@
     </ul>
 
 <script>
-    for(i=0; i<10; i++){
+    const obj = JSON.parse(books);
+    for(i=0; i<obj.length; i++){
         output_node = document.getElementById('output'); //SELECT NODE UL
 
         new_book_node = document.createElement('LI');   //PREPARE/CREATE LI ELEMENT
@@ -26,7 +27,7 @@
         new_book_node.appendChild(text);    //APPEND TEXT NODE TO P
         
         //    JUST STYLING
-        if(books[i].read){
+        if(obj[i].read){
             readcolor = 'yellow';
         }
         else{
@@ -39,7 +40,7 @@
 
 
         // ADD info from JSON
-        new_book_node.innerHTML = '<b>Title: </b>' + books[i].title + '<br>' + '<b>Author: </b>' + books[i].author + '<br><img width=100px src="book.png" alt="boooook">';
+        new_book_node.innerHTML = '<b>Title: </b>' + obj[i].title + '<br>' + '<b>Author: </b>' + obj[i].author + '<br><img width=100px src="book.png" alt="boooook">';
 
         //SELECT i LI in UL and add the prepared P
         output_node[i].appendChild(new_book_node);
