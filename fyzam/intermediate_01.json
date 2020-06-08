@@ -1,0 +1,14 @@
+employees =[
+    {"id": 1, "firstName": "Max1", "lastName": "Mustermann1", "email": "max.musterman1@ct.at", "jobTitle": "CEO1", "salary": 6000},
+    {"id": 2, "firstName": "Max2", "lastName": "Mustermann2", "email": "max.mustermann2@ct.at", "jobTitle": "CEO2", "salary": 7000},
+    {"id": 3, "firstName": "Max3", "lastName": "Mustermann3", "email": "max.mustermann3@ct.at", "jobTitle": "CEO3", "salary": 8000},
+    {"id": 4, "firstName": "Max4", "lastName": "Mustermann4", "email": "max.mustermann4@ct.at", "jobTitle": "CEO4", "salary": 9000},
+    {"id": 5, "firstName": "Max5", "lastName": "Mustermann5", "email": "max.mustermann5@ct.at", "jobTitle": "CEO5", "salary": 10000},
+    {"id": 6, "firstName": "Max6", "lastName": "Mustermann6", "email": "max.mustermann6@ct.at", "jobTitle": "CEO6", "salary": 11000},
+    {"id": 7, "firstName": "Max7", "lastName": "Mustermann7", "email": "max.mustermann7@ct.at", "jobTitle": "CEO7", "salary": 12000},
+    {"id": 8, "firstName": "Max8", "lastName": "Mustermann8", "email": "max.mustermann8@ct.at", "jobTitle": "CEO8", "salary": 13000},
+    {"id": 9, "firstName": "Max9", "lastName": "Mustermann9", "email": "max.mustermann9@ct.at", "jobTitle": "CEO9", "salary": 14000},
+    {"id": 10, "firstName": "Max10", "lastName": "Mustermann10", "email": "max.mustermann10@ct.at", "jobTitle": "CEO10", "salary": 15000},
+
+
+];

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="advanced.json"></script>
+
+</head>
+<body>
+    <ul class = 'output'>
+        
+    </ul>
+
+   
+
+<script>
+    for(i=0; i<10; i++){
+        let output_node = document.querySelectorAll('.output');
+        let new_book_node = document.createElement('LI');
+        let text = document.createTextNode('');
+        new_book_node.appendChild(text);
+        output_node[0].appendChild(new_book_node);
+        new_book_node = document.createElement('P');
+        output_node = document.querySelectorAll('.output li');
+
+        text = document.createTextNode('');
+        new_book_node.appendChild(text);
+        if(books[i].read){
+            readcolor = 'yellow';
+        }
+        else{
+            readcolor = 'red';
+        }
+
+        new_book_node.style.width = '20%';
+        new_book_node.style.backgroundColor = readcolor;
+
+        new_book_node.innerHTML = '<b>Title: </b>' + books[i].title + '<br>' + '<b>Author: </b>' + books[i].author + '<br><img width=100px src="book.png" alt="boooook">';
+        output_node[i].appendChild(new_book_node);
+    }
+  </script>
+</body>
+</html>
