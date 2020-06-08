@@ -1,6 +1,6 @@
-const getWrapper = document.getElementById("wrapper").innerHTML;
-let cars = require("./challenge.json");
+let getWrapper = document.getElementById("wrapper");
 
 for (i = 0; i < cars.length; i++) {
-  getWrapper = `<div style="width: 30%;"><img src="./${cars[i].img}><p>${cars[i].brand} ${cars.model}</p></div>`;
+    getWrapper.innerHTML += `<div class="container"><img src="${cars[i].img}"><div><p>${cars[i].brand} ${cars[i].model}</p></div></div>`;
+    // console.log(cars[i].brand, cars[i].model)
 }
