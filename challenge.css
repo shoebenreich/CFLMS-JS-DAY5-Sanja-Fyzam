@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#top {
+  width: 100%;
+  height: 15vw;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#banner, #logo {
+  top: 0;
+  bottom: 0;
+  margin: auto 5vw auto 5vw;
+  height: 70%;
+}
+
+#banner img, #logo img {
+  height: 100%;
+}
+
+#nav {
+  background-color: grey;
+}
+
+#nav ul {
+  margin-left: 5vw;
+  list-style: none;
+}
+
+#nav ul li {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=challenge.css.map */
