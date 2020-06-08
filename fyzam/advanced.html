@@ -8,36 +8,40 @@
 
 </head>
 <body>
-    <ul class = 'output'>
-        
+    <ul style='list-style: none' id = 'output'>
     </ul>
-
-   
 
 <script>
     for(i=0; i<10; i++){
-        let output_node = document.querySelectorAll('.output');
-        let new_book_node = document.createElement('LI');
-        let text = document.createTextNode('');
-        new_book_node.appendChild(text);
-        output_node[0].appendChild(new_book_node);
-        new_book_node = document.createElement('P');
-        output_node = document.querySelectorAll('.output li');
+        output_node = document.getElementById('output'); //SELECT NODE UL
 
-        text = document.createTextNode('');
-        new_book_node.appendChild(text);
+        new_book_node = document.createElement('LI');   //PREPARE/CREATE LI ELEMENT
+        text = document.createTextNode(''); //CREATE EMPTY TEXTNODE INSIDE LI
+        new_book_node.appendChild(text);    //APPEND TEXT NODE TO LI
+        output_node.appendChild(new_book_node);  //APPEND LI TO UL
+        new_book_node = document.createElement('P');    //PREPARE/CREATE P ELEMENT
+        output_node = document.querySelectorAll('#output li');  //SELECT ALL LIs in the outout CLASS ---> ARRAY
+
+        text = document.createTextNode(''); //CREATE EMPTY TEXTNODE INSIDE P
+        new_book_node.appendChild(text);    //APPEND TEXT NODE TO P
         
+        //    JUST STYLING
         if(books[i].read){
             readcolor = 'yellow';
         }
         else{
             readcolor = 'red';
         }
-
-        new_book_node.style.width = '20%';
+    
+        new_book_node.style.width = '200px';
         new_book_node.style.backgroundColor = readcolor;
+        //    JUST STYLING
 
+
+        // ADD info from JSON
         new_book_node.innerHTML = '<b>Title: </b>' + books[i].title + '<br>' + '<b>Author: </b>' + books[i].author + '<br><img width=100px src="book.png" alt="boooook">';
+
+        //SELECT i LI in UL and add the prepared P
         output_node[i].appendChild(new_book_node);
     }
   </script>
