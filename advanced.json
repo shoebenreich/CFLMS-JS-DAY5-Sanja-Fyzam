@@ -1,0 +1,12 @@
+books = [
+    {"title": "Book1", "author": "Author1", "read" : false},
+    {"title": "Book2", "author": "Author2", "read" : true},
+    {"title": "Book3", "author": "Author3", "read" : false},
+    {"title": "Book4", "author": "Author4", "read" : false},
+    {"title": "Book5", "author": "Author5", "read" : true},
+    {"title": "Book6", "author": "Author6", "read" : true},
+    {"title": "Book7", "author": "Author7", "read" : false},
+    {"title": "Book8", "author": "Author8", "read" : true},
+    {"title": "Book9", "author": "Author9", "read" : false},
+    {"title": "Book10", "author": "Author10", "read" : false}
+]

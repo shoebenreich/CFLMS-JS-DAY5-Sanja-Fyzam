@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="intermediate.json"></script>
+    <title>Intermediate</title>
+</head>
+<body>
+    <div>
+        <table id="table" style="width: 500px; height: 300px; border: 2px solid black;">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </table>
+    </div>
+<script>
+    // document.getElementById("table").innerHTML = "";
+    for (i=0; i < employees.length; i++) {
+        
+        document.getElementById("table").innerHTML += `<tr><td>${employees[i].id}</td><td>${employees[i].firstName} ${employees[i].lastName}</td><td>${employees[i].email}</td><td>${employees[i].jobTitle}</td><td>${employees[i].salary}</td></tr>`
+    }
+</script>
+</body>
+</html>

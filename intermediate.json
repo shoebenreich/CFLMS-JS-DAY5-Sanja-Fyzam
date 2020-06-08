@@ -1,0 +1,12 @@
+employees = [
+    {"id": 1, "firstName": "Max", "lastName": "Mustermann", "email": "max.mustermann@cf.at", "jobTitle": "CEO", "salary": 10000},
+    {"id": 2, "firstName": "Marina", "lastName": "Leo", "email": "marina.leo@cf.at", "jobTitle": "Trainer", "salary": 2000},
+    {"id": 3, "firstName": "Morty", "lastName": "Zebra", "email": "morty.zebra@cf.at", "jobTitle": "Housekeeper", "salary": 2200},
+    {"id": 4, "firstName": "Alex", "lastName": "Lion", "email": "alex.lion@cf.at", "jobTitle": "Star", "salary": 10000},
+    {"id": 5, "firstName": "Gloria", "lastName": "Hippo", "email": "gloria.hippo@cf.at", "jobTitle": "Secretary", "salary": 6000},
+    {"id": 6, "firstName": "Julien", "lastName": "King", "email": "julien.king@cf.at", "jobTitle": "King", "salary": 100000},
+    {"id": 7, "firstName": "Buzz", "lastName": "Lightyear", "email": "buzz.lightyear@cf.at", "jobTitle": "Field Staff", "salary": 3000},
+    {"id": 8, "firstName": "Woody", "lastName": "Cowboy", "email": "woody.cowboy@cf.at", "jobTitle": "Field Staff", "salary": 3000},
+    {"id": 9, "firstName": "Moana", "lastName": "Motunui", "email": "Moana.Motunui@cf.at", "jobTitle": "Executive", "salary": 6000},
+    {"id": 10, "firstName": "Donald", "lastName": "Duck", "email": "donald.duck@cf.at", "jobTitle": "Budget", "salary": 7000}
+]
